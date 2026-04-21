@@ -106,6 +106,10 @@ h2 ~ p {
   color: #555;
 }
 
+hr {
+  margin-top: 0.5cm;
+}
+
 /* Combining two selectors */
 p.note {
   color: #888;
