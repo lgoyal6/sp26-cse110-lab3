@@ -19,10 +19,10 @@ body {
   margin: auto;
 }
 img {
-  max-width: 400px;
+  max-width: 300px;
   height: auto;
+  display: block;
 }
-
 h1 {
   color: #2c3e50;
   text-align: center;
