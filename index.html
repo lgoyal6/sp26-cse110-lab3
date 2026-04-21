@@ -14,10 +14,8 @@
   }
 </style>
     </head>
-
 <body>
-
-  <header>
+  <header id="header">
     <h1>Pomodoro Timer First Brainstorm</h1>
     <nav>
 	<p style="color: purple;">Meeting Minutes</p>
@@ -26,13 +24,10 @@
       <a href="#new">New Business</a>
     </nav>
   </header>
-
   <main>
-
-    <section>
+    <section class="section">
       <h2>Meeting Topic: Brainstorming</h2>
       <h3>Date: April 13, 2026</h3>
-
       <p><strong>Attendance:</strong></p>
       <ul>
         <li>Ishita</li>
@@ -40,10 +35,8 @@
         <li>Jordan</li>
       </ul>
     </section>
-
     <hr>
-
-    <section id="agenda">
+    <section id="agenda" class="section">
       <h2>Agenda</h2>
       <ol>
         <li>Discuss app idea</li>
@@ -51,42 +44,35 @@
         <li>Timeline planning</li>
       </ol>
     </section>
-
-    <section id="unfinished">
+    <section id="unfinished" class="section">
       <h2>Unfinished Business</h2>
       <p>No major unfinished items from last meeting.</p>
     </section>
-
-    <section id="new">
+    <section id="new" class="section">
       <h2>New Business</h2>
       <p>We discussed adding a <b>focus timer</b> and <i>break reminders</i>.</p>
       <p><em>Important:</em> We need to finalize UI design soon.</p>
     </section>
-
-    <section>
+    <section class="section">
       <h2>Miscellaneous</h2>
       <p>Questions about user notifications.<br>Need further research.</p>
     </section>
-
-    <section>
+    <section class="section">
       <h2>Diagram</h2>
       <img src="HW1_4b.png" alt="App Diagram">
     </section>
-
-    <section>
+    <section class="section">
       <h2>Audio Recording</h2>
       <audio controls>
         <source src="capybara.mp3" type="audio/mpeg">
       </audio>
     </section>
-
-    <section>
+    <section class="section">
       <h2>Video Recording</h2>
       <video width="300" controls>
         <source src="teamintro.mp4" type="video/mp4">
       </video>
     </section>
-
     <p>Favorite meeting snack:</p>
         <input list="snacks" name="snack">
         <datalist id="snacks">
@@ -94,61 +80,61 @@
         <option value="Cookies"></option>
         <option value="Fruit"></option>
         </datalist>
-
-    <section>
+    <section class="section">
       <h2>Additional Notes</h2>
       <details>
         <summary>Click to expand</summary>
         <p>Team agreed to meet weekly moving forward.</p>
       </details>
     </section>
-
     <div>
       <p>This is inside a <span>div and span example</span>.</p>
     </div>
-
-    <section>
+    <section class="section">
+      <h2>Sprint Overview</h2>
+      <div class="flex-container">
+        <div>Sprint 1</div>
+        <div>Sprint 2</div>
+        <div>Sprint 3</div>
+      </div>
+    </section>
+    <section class="section">
+      <h2>Task Board</h2>
+      <div class="grid-container">
+        <div>Task 1</div>
+        <div>Task 2</div>
+        <div>Task 3</div>
+      </div>
+    </section>
+    <section class="section">
       <h2>Feedback Form</h2>
-
       <form>
         <fieldset>
-
           <p>Name:</p>
           <input type="text">
-
           <p>Preferred Feature:</p>
           <input type="checkbox"> Timer
           <input type="checkbox"> Notifications
-
           <p>Experience Level:</p>
           <input type="radio" name="level"> Beginner
           <input type="radio" name="level"> Advanced
-
           <p>Select Date:</p>
           <input type="date">
-
           <p>Comments:</p>
           <textarea></textarea>
-
           <p>Choose Option:</p>
           <select>
             <option>Option 1</option>
             <option>Option 2</option>
           </select>
-
           <br><br>
           <button>Submit</button>
-
         </fieldset>
       </form>
-
     </section>
-
   </main>
-
   <footer>
     <p>Meeting Minutes - CSE110 Lab 2</p>
   </footer>
-
 </body>
 </html>
